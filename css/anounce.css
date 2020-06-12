@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Arvo|PT+Sans+Narrow:700&display=swap');
+
+
+.text-message{
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#news-feed a img{
+    margin-left: 50%;
+    
+}
+
+.anounce hr{
+    height: 2px; 
+    background-color: #F0AAA8; 
+    border-color: #F0AAA8;
+    margin-top: 50px; 
+    margin-bottom: 0px;
+    width: 900px;
+
+}
+
+#divisao{
+    height: 5px; 
+    background-color: #01013C; 
+    border: solid ;
+    width: 100%;
+}
+
+.iris{
+    display: flex;  
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+
+.iris p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+pre {
+    font-family: Roboto, 'Source Sans Pro', sans-serif;
+}
+
+@media screen and (max-width: 770px)
+{
+    .iris img{
+        height: 300px;
+        width: 300px;
+
+    }
+}
